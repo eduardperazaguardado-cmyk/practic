@@ -58,4 +58,13 @@ poema_minuscula = poema.lower()
 mensaje = "hOlA kACe progRMando o qUe HaCe"
 ## Capitalize a que la primera letra de cada palabra sea mayuscula
 mensajeCorrecto = mensaje.capitalize()
-print(mensajeCorrecto)
+# print(mensajeCorrecto)
+
+## Las flipantess aventuras de el gato con bolson magico y alfredo
+titulo = "Las flipantess aventuras de el gato con bolson magico y alfredo"
+tituloCorrecto = titulo.title()
+# print(tituloCorrecto)
+
+## swapCase() permite cambiar entre mayusculas y minusculas
+swapCaseTitulo = tituloCorrecto.swapcase()
+print(swapCaseTitulo)
