@@ -73,3 +73,10 @@ print(poema_Mayusculas)
 
 poema_Minusculas = cancion2.lower()
 print(poema_Minusculas)
+
+mensaje = "holA Khace prograNDO O Que HaCe"
+
+mensaje_correcto = (
+    mensaje.capitalize()
+)  # convierte la primera letra en mayuscula y el resto en minuscula
+print(mensaje_correcto)
