@@ -1,89 +1,85 @@
 # las comillas triples son las que se encargan de hacer
 # Cadenas de texto largas sin mdoficar el formato.
 # texto corto
-cancion = "  "
+poema2 = (" Es porque un pajarito de la montaña ha hecho",)
+"en el hueco de un árbol, su nido matinal"
+"que el árbol amanece con música en el pecho",
+"como que si tuviera corazón musical"
+
 
 # textos largos ''' o """
-cancion2 = """ Toy mirándote, envolviéndome
-Si supieras cómo de mis ojos tú te ves
-Lo que quieras, ma, pídelo y ya
-Dios para hacerte se tuvo que concentrar, ma
-Pa no pensarte a mí me tienen que matar
-Como tú no vuelve a nacer otra igual
-Y si reencarnamos, te vuelvo a encontrar
-Vente, miente
-Dime que eres mía solamente
-Nuestra conexión es permanente
-No quiero a más nadie aunque lo intente
-¿Qué se siente
-Saber que esto es tuyo solamente?
-No puedo sacarte de mi mente
-Tú eres mi futuro y mi presente
-Baby, tú eres la favorita 'e Dios
-Porque te hizo a la perfección
-Eso atrás está bien grande como el vagón de una pickup
-Me dice pa buscarla y pongo el carro en sport plus
-Prendemos pa fumar
-Cuando se lo pongo, no lo quiero sacar
-Si me vengo, adentro lo vo'a dejar
-Ma, tú me tienes que te quiero preñar (uoh-oh)
-Hasta en los sueños me sales
-He probao a otras, pero como tú no saben
-Contigo me dejo ver en público, no importa que nos graben
-Tas bien rica, contigo estoy winning
-Contigo estoy balling, esa baby es top chef
-Vo'a nadar en esa pussy, Michael Phelps
-To' los que te hablan mierda de mí es porque como yo quieren ser
-Pero ni volviendo a nacer
-Baby, desde que te conocí creo en el amor
-Aunque a veces me confundes, quiero verte
-Así que vente, miente
-Dime que eres mía solamente
-Nuestra conexión es permanente
-No quiero a más nadie aunque lo intente
-¿Qué se siente
-Saber que esto es tuyo solamente?
-No puedo sacarte de mi mente
-Tú eres mi futuro y mi presente
-Te la echo adentro sin plan B, lo nuestro es love and sex
-Si llamas, yo le caigo a donde estés
-Toy mal acostumbrao, sin tu presencia ya no sé qué hacer
-¿Pa qué engancharme Moissanite? Tú eres mi VVS
-No te llegan ni aunque tratan
-Piché a toa' estas perras, ma, tú eres mi gata
-En la calle es fina, pero en la cama, tremenda sata
-Ojalá dure pa siempre nuestra etapa
-Tú eres mi reina, siempre te vo'a costear
-Hicieron pacto nuestras almas, mami, yo nunca te voy a ghostear
-Chíngame como si el mundo va a acabarse
-No sabes si mañana va a pasar
-Vente, miente
-Dime que eres mía solamente
-Nuestra conexión es permanente
-No quiero más nadie aunque lo intente
-¿Qué se siente
-Saber que esto es tuyo solamente?
-No puedo sacarte de mi mente
-Tú eres mi futuro y mi presente"""
-print(cancion2)
+poema = """Es porque un pajarito de la montaña ha hecho,
+en el hueco de un árbol, su nido matinal,
+que el árbol amanece con música en el pecho,
+como que si tuviera corazón musical.
+
+Si el dulce pajarito por entre el hueco asoma,
+para beber rocío, para beber aroma,
+el árbol de la sierra me da la sensación
+de que se le ha salido, cantando, el corazón. """
+
+## print(poema)
+
+## computadora -> que variable queres imprimir
+## print() =>
+# void -> no devuelve nada
+# objeto -> devuelve un tipo de dato
+
+## realizar una wiki tambien pueder darle doble clic docuemtno y se les
+## despligar el editor de texto
+
+## MAYUSCULAS
+## multabilidad  -> siempre debemos evitar transformar objeto original
+## clases -> estereotipo (como un molde)
+## propiedades ->
+## color
+#  tipo de motor ( electricos o de gas)
+# Ojos
+# color de pelo
+
+# funciones -> string ( cadenas de texto) es un objeto
+# moverse
+# frenar
+# cargarse
+# descargarse
+
+# poema es un espacio de memoria  para string
+# se va a llenar con el contenido de  poema alterar con la accion Upper ( mayusculas)
+poema_Mayusculas = poema.upper()
+##print(poema_Mayusculas)
+
+# convertir en minusculas
+## string .lower
+
+poema_minuscula = poema.lower()
+##print(poema_minuscula)
+
+## tiene que ingresar 100 nombres en mayuscula
+mensaje = "hOlA kACe progRMando o qUe HaCe"
+## Capitalize a que la primera letra de cada palabra sea mayuscula
+mensajeCorrecto = mensaje.capitalize()
+# print(mensajeCorrecto)
+
+## Las flipantess aventuras de el gato con bolson magico y alfredo
+titulo = "Las flipantess aventuras de el gato con bolson magico y alfredo"
+tituloCorrecto = titulo.title()
+# print(tituloCorrecto)
+
+## swapCase() permite cambiar entre mayusculas y minusculas
+swapCaseTitulo = tituloCorrecto.swapcase()
+print(swapCaseTitulo)
 
 
-poema_Mayusculas = cancion2.upper()
-print(poema_Mayusculas)
+numero = "512"
+solo_letras = "El chico del apartamentos "
+Coro = "piribiribanban"
 
-poema_Minusculas = cancion2.lower()
-print(poema_Minusculas)
+quieroSoloLetras = numero.isalpha()
+print(quieroSoloLetras)
 
-mensaje = "holA Khace prograNDO O Que HaCe"
 
-mensaje_correcto = (
-    mensaje.capitalize()
-)  # convierte la primera letra en mayuscula y el resto en minuscula
-print(mensaje_correcto)
-
-nombre = "messi"
-nombre2 = "ronaldo"
-comparar = (
-    nombre.casefold() == nombre2.casefold()
-)  # compara sin importar mayusculas o minusculas
-print(comparar)
+## numeros y letras
+print("numeros y letras")
+numeros_letras = nombre + numero
+evaluarTexto = numeros_letras.isalnum()
+print(evaluarTexto)
