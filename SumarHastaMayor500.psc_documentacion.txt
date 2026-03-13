@@ -15,7 +15,7 @@ Algoritmo SumarHastaMayor500
 FinAlgoritmo
 
 
-El objetivo de este programa es acumular la suma de un número ingresado por el usuario con el resultado de la suma anterio hasta que la suma total sea igual o mayor que 500 y ahí finalizar el bucle.
+El objetivo de este programa es acumular la suma de un número ingresado por el usuario con el resultado de la suma anterior hasta que la suma total sea igual o mayor que 500 y ahí finalizar el bucle.
 
 
 Definir numero, resultado Como Entero
@@ -58,6 +58,10 @@ Este ya seria el final de el algoritmo, una vez que la suma haya llegado al limi
 
 Y luego finalizamos el algoritmo con el FinMientras.
 
+
+Enlace del repositorio github del código: 
+
+https://github.com/eduardperazaguardado-cmyk/practic/blob/a84766b64727fc8416e1f9f8299d05f2c9b23eee/SumarHastaMayor500.psc
 
 
 
