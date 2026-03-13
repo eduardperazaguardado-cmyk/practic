@@ -80,3 +80,10 @@ mensaje_correcto = (
     mensaje.capitalize()
 )  # convierte la primera letra en mayuscula y el resto en minuscula
 print(mensaje_correcto)
+
+nombre = "messi"
+nombre2 = "ronaldo"
+comparar = (
+    nombre.casefold() == nombre2.casefold()
+)  # compara sin importar mayusculas o minusculas
+print(comparar)
