@@ -68,3 +68,18 @@ tituloCorrecto = titulo.title()
 ## swapCase() permite cambiar entre mayusculas y minusculas
 swapCaseTitulo = tituloCorrecto.swapcase()
 print(swapCaseTitulo)
+
+
+numero = "512"
+solo_letras = "El chico del apartamentos "
+Coro = "piribiribanban"
+
+quieroSoloLetras = numero.isalpha()
+print(quieroSoloLetras)
+
+
+## numeros y letras
+print("numeros y letras")
+numeros_letras = nombre + numero
+evaluarTexto = numeros_letras.isalnum()
+print(evaluarTexto)
