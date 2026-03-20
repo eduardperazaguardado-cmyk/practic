@@ -51,10 +51,30 @@ FullmetalCapitalizer = fnaMayusculas.swapcase().title()
 saludo(FullmetalCapitalizer)
 
 ##comparar cadenas de texto
-nombre = "Brandon Alas"
-password = 123456789
+comparar1 = "eduard"
+comparar2 = "eduard"
 
-if nombre == "Brandon Alas":
-    print("Ingrese su contraseña")
+varaiabletemporal1 = comparar2.casefold()
+comparar = comparar1.casefold() == comparar2.casefold()
 
-    ## edad= int(input("Ingrese su edad: "))
+
+clasicas2005 = "Gasolina 2025 "
+comprarisAlpha = clasicas2005.isalpha()
+print(comprarisAlpha, 2005)
+
+# Isalpha nos va a dar true si el string que se le esta dando es unicamente letras
+
+
+## si solo quiero numero  isalnum
+
+letraCancion = " Lo que paso, paso, entre tu y yo"  # 3 no tengo numero
+decada = "10"
+
+ejemplo = letraCancion.isalnum()
+# print(ejemplo)
+ejemplo = decada.isalnum()
+# print(ejemplo)
+
+
+comprobarDecadas = decada.isdigit()
+print(comprobarDecadas)
