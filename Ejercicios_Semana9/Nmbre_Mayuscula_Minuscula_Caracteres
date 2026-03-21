@@ -1,0 +1,6 @@
+# Nombre mayusculas, Minusculas; numero de caracteres
+
+nombre = input("Escribe tu nombre: ")
+print("en mayusculas: ", nombre.upper())
+print("en minusculas: ", nombre.lower())
+print("numero de caracteres: ", len(nombre))
