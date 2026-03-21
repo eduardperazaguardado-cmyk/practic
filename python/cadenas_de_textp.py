@@ -80,6 +80,6 @@ print(quieroSoloLetras)
 
 ## numeros y letras
 print("numeros y letras")
-numeros_letras = nombre + numero
+numeros_letras = solo_letras + numero
 evaluarTexto = numeros_letras.isalnum()
 print(evaluarTexto)
